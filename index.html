@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows
+    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <button id="scroll-to-top-button">^ Back to top</button>
+    <div id="search-bar">
+      <button onclick="reloadPage()" class="btn">IMDb</button>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search IMBd" />
+      </form>
+      <div class="link first">
+        <p class="contact"><a href="pages/page1.html">Contact</a></p>
+      </div>
+      <div class="link second">
+        <p class="about"><a href="pages/page2.html">About</a></p>
+      </div>
+    </div>
+    <div class="movies-list">
+      <h1 id="category-title">Now playing Movies</h1>
+    </div>
+
+    <div id="movies-grid"></div>
+    <script src="script.js"></script>
+    <div class="genre-block">
+      <button class="btn-1">
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+      </button>
+      <div class="list-of">
+        <div class="list-items"></div>
+      </div>
+    </div>
+
+    <div class="social_media">
+      <a
+        href="https://bs-ba.facebook.com/adin.custovic.90/"
+        target="_blank"
+        class="fa fa-facebook"
+        id="ikona"
+      ></a>
+      <a
+        href="https://www.instagram.com/adin.custovic_7/?igshid=MjljNjAzYmU%3D"
+        target="_blank"
+        class="fa fa-instagram"
+        id="ikona_2"
+      ></a>
+      <a
+        href="https://github.com/Adin222"
+        target="_blank"
+        class="fa fa-github"
+        id="ikona_3"
+      ></a>
+    </div>
+
+    <div id="footer">
+      <img src="logo.svg" alt="logo" />
+      <p>
+        This product uses the TMDB API but is not endorsed or certified by TMDB.
+      </p>
+    </div>
+  </body>
+</html>
