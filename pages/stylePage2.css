@@ -69,14 +69,24 @@ h1 {
 #div4 img {
   width: 100px;
 }
-@media (max-width: 767px) {
-  #div1 {
-    height: 300px;
+/* For screens less than 625px wide */
+@media (max-width: 625px) {
+  /* Make all four divs appear in a single row */
+  #div1,
+  #div2,
+  #div3,
+  #div4 {
+    width: 100%;
+    float: left;
+  }
+
+  #div3 {
+    box-shadow: none;
   }
 
   #div1,
-  #div2 {
-    display: block;
-    width: 100%;
+  #div2,
+  #div3 {
+    margin-bottom: 60px;
   }
 }

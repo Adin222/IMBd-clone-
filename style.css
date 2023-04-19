@@ -348,25 +348,26 @@ a:active {
   }
 }
 @media screen and (max-width: 700px) {
-  #search-bar {
-    display: grid;
-
-    justify-content: center;
-    align-items: center;
-  }
-  #search-bar > * {
-    flex: 1;
-  }
-  .list-of {
-    width: 95px;
-  }
-}
-@media screen and (max-width: 700px) {
   #search-input {
-    width: 80% !important;
+    width: 80%;
   }
 }
+
 @media screen and (max-width: 319px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 550px) {
+  .btn {
+    display: none;
+  }
+  #search-input {
+    width: 150px !important;
+  }
+  .movie-card {
+    margin-left: 35px;
+  }
   body {
     overflow-x: hidden;
   }
