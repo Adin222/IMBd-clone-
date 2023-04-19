@@ -2,5 +2,5 @@
 A front-end project for IMBd clone 
 
 
-I have to fix problems with responsiveness (on mobile devices)
+The mobile version of the website needs improvement in terms of responsiveness.
 
