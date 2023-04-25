@@ -1,8 +1,6 @@
 const apiBaseUrl = "https://api.themoviedb.org/3";
 const apiKey = "5360d3bb6ad9404c61df084428554ac3";
 const imageBaseUrl = "https://image.tmdb.org/t/p/w300";
-const videoBaseUrl = "https://video.tmdb.org/t/p/w300";
-const apiUrl = apiBaseUrl + "/discover/movie?sort_by=popularity.desc&" + apiKey;
 
 const moviesGrid = document.getElementById("movies-grid");
 const searchInput = document.getElementById("search-input");
