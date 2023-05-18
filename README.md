@@ -1,8 +1,4 @@
 # IMBd-clone-
-A front-end project for IMBd clone 
+A front-end project for IMDb clone using MovieDB API
 
-
-The mobile version of the website needs improvement in terms of responsiveness.
-
-The width of the scrollbar on mobile devices should be increased.
 
